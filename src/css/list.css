@@ -1,0 +1,43 @@
+.main-content {
+    padding: 40px 15px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.page-heading {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-area: content;
+    margin-bottom: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.product-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.product-item img {
+    display: block;
+    width: 100%;
+}
+
+.product-item img:hover {
+    transform: scale(1.04);
+}
+
+.product-item span {
+    margin-top: 20px;
+    display: block;
+}
+
+.product-item span:hover {
+    color: #2f2f2f;
+}

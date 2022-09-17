@@ -1,0 +1,60 @@
+.cart {
+    max-width: 991px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #0984e3;
+    cursor: pointer;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 6px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    width: 25%;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+table td img {
+    max-width: 130px;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+table th:first-child, table td:first-child {
+    text-align: left;
+}
+
+table th:last-child, table td:last-child {
+    text-align: left;
+}
+
+.cart .remove-button button {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #0000cd;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.cart .remove-button button:hover {
+    background: #0984e3;
+}

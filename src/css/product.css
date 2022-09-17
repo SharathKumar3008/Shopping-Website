@@ -1,0 +1,66 @@
+.productView .productData {
+    display: flex;
+}
+
+.productView .productData .product-image, .productView .productData .product-details {
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.productView .productData .product-image img {
+    width: 100%;
+}
+
+.productView .productData .product-details h2 {
+    margin: 10px 0 20px;
+}
+
+.productView .productData .product-details .quantity-box {
+    margin: 20px 0;
+}
+
+.productView .productData .product-details .quantity-box .quantity-label {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.productView .productData .product-details .quantity-box input {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-color: #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.productView .productData .product-details .form--addToCart {
+    background-color: #1976d2;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.productView .productData .product-details .form--addToCart:hover {
+    text-decoration: none;
+    background-color: #1565c0;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+}
